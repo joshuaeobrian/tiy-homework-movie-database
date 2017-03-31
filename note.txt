@@ -1,0 +1,96 @@
+
+
+
+
+
+Horror 1
+jaws
+=============================
+Director: Steven Spielberg
+Actor:  Roy Scheider
+Writer: Peter Benchley
+Key Grip: Guy Polzel
+Reviewer: bob
+
+Fantasy 2
+Lord of the Rings: The Fellowship of the ring
+=============================
+Director: Peter Jackson
+Actor: Elijah Wood
+Writer:  J.R.R. Tolkien
+Key Grip: Harry Harrison
+Reviewer: karl huts
+
+Thriller 3
+The Accountant
+=============================
+Director: Gavin O'Connor
+Actor: Ben Affleck
+Writer: Bill Dubuque
+Key Grip: Eddie Evans
+Reviewer:
+
+Western 4
+Tombstone
+=============================
+Director:  George P. Cosmatos
+Actor:   Kurt Russell
+Writer:  Kevin Jarre
+Key Grip: Mark J. Rainsford
+Reviewer:
+
+Adventure 5
+Doctor Strange
+=============================
+Director: Scott Derrickson
+Actor: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams
+Writer: Jon Spaihts, Scott Derrickson
+Key Grip: John Flemming
+Reviewer:
+
+Comedy 6
+Step Brothers
+=============================
+Director: Adam McKay
+Actor:  Will Ferrell, John C. Reilly, Mary Steenburgen
+Writer:  Will Ferrell, Adam McKay
+Key Grip: Les T. Tomita
+Reviewer:
+
+Romance 7
+note book
+=============================
+Director:  Nick Cassavetes
+Actor:  Gena Rowlands, James Garner, Rachel McAdams
+Writer: Jeremy Leven (screenplay), Jan Sardi (adaptation)
+Key Grip: Tony Anderson
+Reviewer:
+
+Action 8
+John Wick
+=============================
+Director:  Chad Stahelski, David Leitch
+Actor:  Keanu Reeves, Michael Nyqvist, Alfie Allen
+Writer:  Derek Kolstad
+Key Grip:Stu Brumbaugh, Johnny Erbes-Chan
+Reviewer:
+
+Fiction 9
+jurassic park
+=============================
+Director: Steven Spielberg
+Actor: Sam Neill, Laura Dern, Jeff Goldblum
+Writer: Michael Crichton (novel), Michael Crichton (screenplay)
+Key Grip: Ron Cardarelli
+Reviewer:
+
+Drama 10
+Good Will Hunting
+=============================
+Director:Gus Van Sant
+Actor:  Robin Williams, Matt Damon, Ben Affleck |
+Writer: Matt Damon, Ben Affleck
+Key Grip: Mark Manchester
+Reviewer:
+
+pg_dump -U {josh} {movies} -f {movies.sql}
