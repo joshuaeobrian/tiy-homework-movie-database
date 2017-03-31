@@ -40,7 +40,7 @@ SET default_with_oids = false;
 
 CREATE TABLE genre (
     id integer NOT NULL,
-    genre_type character varying(30)
+    genre_type character varying(30) NOT NULL
 );
 
 
@@ -74,8 +74,8 @@ ALTER SEQUENCE genre_type_id_seq OWNED BY genre.id;
 CREATE TABLE movie (
     id integer NOT NULL,
     movie character varying(50) NOT NULL,
-    rating_id integer,
-    release_date date
+    rating_id integer NOT NULL,
+    release_date date NOT NULL
 );
 
 
@@ -153,8 +153,8 @@ ALTER SEQUENCE movie_ratings_id_seq OWNED BY movie_ratings.id;
 
 CREATE TABLE movie_role (
     person_id integer NOT NULL,
-    role_type_id integer,
-    movie_id integer
+    role_type_id integer NOT NULL,
+    movie_id integer NOT NULL
 );
 
 
@@ -200,7 +200,7 @@ ALTER SEQUENCE person_id_seq OWNED BY person.id;
 
 CREATE TABLE reviews (
     review character varying(200),
-    rating integer,
+    rating integer NOT NULL,
     person_id integer NOT NULL,
     movie_id integer NOT NULL
 );
